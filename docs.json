@@ -61,19 +61,19 @@
         "icon": "aws",
         "anchors": [
           {
-            "anchor": "blogs",
-            "pages": [
-              "post/aws/blog/free-tier",
-              "post/aws/blog/aws-cli"
-            ]
-          },
-          {
             "anchor": "Projects",
             "icon": "diagram-project",
             "pages": [
               "post/aws/projects/s3-static-website",
               "post/aws/projects/three-tier-architecture",
               "post/aws/projects/vpc-peering"
+            ]
+          },
+          {
+            "anchor": "blogs",
+            "pages": [
+              "post/aws/blog/free-tier",
+              "post/aws/blog/aws-cli"
             ]
           }
         ]
