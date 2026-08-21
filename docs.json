@@ -1,11 +1,11 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
+  "theme": "maple",
   "name": "Plaroom Cloud Security",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#b31fb1",
+    "light": "#b31fb1",
+    "dark": "#b31fb1"
   },
   "favicon": "/favicon.svg",
   "navigation": {
@@ -18,32 +18,73 @@
         ]
       }
     ],
-    "anchors": [
+    "tabs": [
       {
-        "anchor": "Getting Started",
-        "dropdowns": [
+        "tab": "Welcome"
+      },
+      {
+        "tab": "Blog",
+        "icon": "blog",
+        "pages": [
+          "blog/aws-cli",
+          "blog/regional-nat",
+          "blog/root-account"
+        ]
+      },
+      {
+        "tab": "Cloud security roadmap",
+        "pages": [
+          "post/cloud-security-roadmap/cloud-basics",
+          "post/cloud-security-roadmap/linux-fundamentals",
+          "post/cloud-security-roadmap/cloud-grc",
+          "post/cloud-security-roadmap/cloud-iam",
+          "post/cloud-security-roadmap/data-protection",
+          "post/cloud-security-roadmap/security-certs"
+        ]
+      },
+      {
+        "tab": "Programming",
+        "icon": "code"
+      },
+      {
+        "tab": "GCP",
+        "icon": "cloud"
+      },
+      {
+        "tab": "AWS",
+        "icon": "aws",
+        "anchors": [
           {
-            "dropdown": "CTF",
-            "groups": [
-              {
-                "group": "HTB Labs",
-                "pages": []
-              },
-              {
-                "group": "Hacksmarter Labs",
-                "pages": []
-              },
-              {
-                "group": "TryHackMe",
-                "pages": []
-              },
-              {
-                "group": "Untitled Group",
-                "pages": []
-              }
+            "anchor": "blogs"
+          },
+          {
+            "anchor": "Projects",
+            "icon": "diagram-project",
+            "pages": [
+              "post/aws/projects/s3-static-websitebsite",
+              "post/aws/projects/three-tier-architecture"
             ]
           }
         ]
+      },
+      {
+        "tab": "Azure",
+        "icon": "microsoft"
+      },
+      {
+        "tab": "Infrastructure as code",
+        "icon": "code-branch"
+      },
+      {
+        "tab": "DevOps",
+        "icon": "dev"
+      },
+      {
+        "tab": "Kubernetes",
+        "icon": "container-storage"
+      },
+      {
+        "tab": "Hacking The Cloud"
       }
     ]
   },
@@ -61,25 +102,18 @@
     "primary": {
       "type": "button",
       "label": "Dashboard",
-      "href": "https://app.mintlify.com"
+      "href": "https://playroom-cloudsec.com"
     }
   },
   "contextual": {
     "options": [
-      "copy",
-      "view",
-      "chatgpt",
-      "claude",
-      "perplexity",
-      "mcp",
-      "cursor",
-      "vscode"
+      "copy"
     ]
   },
   "footer": {
     "socials": {
       "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
+      "github": "https://github.com/playroom-security",
       "linkedin": "https://linkedin.com/company/mintlify"
     }
   }
