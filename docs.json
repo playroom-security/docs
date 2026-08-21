@@ -85,7 +85,22 @@
       },
       {
         "tab": "Kubernetes",
-        "icon": "container-storage"
+        "icon": "container-storage",
+        "groups": [
+          {
+            "group": "Deployment",
+            "pages": [
+              "post/kubernetes/k8s-vagrant",
+              "post/kubernetes/minikube-docker"
+            ]
+          },
+          {
+            "group": "Overview",
+            "pages": [
+              "post/kubernetes/k8s-overview"
+            ]
+          }
+        ]
       },
       {
         "tab": "Hacking The Cloud"
