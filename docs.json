@@ -61,8 +61,8 @@
             "anchor": "Projects",
             "icon": "diagram-project",
             "pages": [
-              "post/aws/projects/s3-static-websitebsite",
-              "post/aws/projects/three-tier-architecture"
+              "post/aws/projects/three-tier-architecture",
+              "post/aws/projects/s3-static-website"
             ]
           }
         ]
