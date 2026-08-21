@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 220" width="2000" height="440" aria-labelledby="title desc">
+  <title>Playroom Cloud</title>
+  <desc id="desc">Playroom Cloud cybersecurity logo with a neon security icon.</desc>
+  <defs>
+    <linearGradient id="neon" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0" stop-color="#00e5ff"/>
+      <stop offset=".55" stop-color="#34ff88"/>
+      <stop offset="1" stop-color="#c6ff65"/>
+    </linearGradient>
+  </defs>
+
+  
+  <g transform="translate(18 18) scale(.36)">
+    <rect width="512" height="512" rx="118" fill="#070b10"/>
+    <path d="M92 244c0-86 73-155 164-155s164 69 164 155v83c0 54-44 97-98 97H190c-54 0-98-43-98-97z" fill="none" stroke="url(#neon)" stroke-width="24"/>
+    <path d="M145 257c14-66 58-102 111-102s97 36 111 102l-30 91H175z" fill="#0d1820" stroke="url(#neon)" stroke-width="18"/>
+    <path d="M184 274l45 12M328 274l-45 12" stroke="#d6ff5e" stroke-width="18" stroke-linecap="round"/>
+    <rect x="222" y="316" width="68" height="63" rx="12" fill="none" stroke="#00e5ff" stroke-width="14"/>
+    <path d="M238 316v-20c0-25 36-25 36 0v20" fill="none" stroke="#00e5ff" stroke-width="14" stroke-linecap="round"/>
+  </g>
+
+  
+  <text x="220" y="137" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="82" font-weight="700" letter-spacing="-2" fill="#f4f7f8">playroom</text>
+  <text x="684" y="137" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="82" font-weight="400" letter-spacing="-2" fill="#9fe9d0">cloud</text>
+</svg>

@@ -3,11 +3,14 @@
   "theme": "willow",
   "name": "Plaroom Cloud Security",
   "colors": {
-    "primary": "#00FF41",
-    "light": "#39FF14",
-    "dark": "#00FF41"
+    "primary": "#e5a809",
+    "light": "#e5a809",
+    "dark": "#e5a809"
   },
-  "favicon": "/favicon.svg",
+  "favicon": {
+    "light": "/favicon.svg",
+    "dark": "/images/favicon.svg"
+  },
   "navigation": {
     "pages": [
       {
@@ -20,7 +23,10 @@
     ],
     "tabs": [
       {
-        "tab": "Welcome"
+        "tab": "Welcome",
+        "pages": [
+          "home"
+        ]
       },
       {
         "tab": "Blog",
@@ -55,14 +61,17 @@
         "icon": "aws",
         "anchors": [
           {
-            "anchor": "blogs"
+            "anchor": "blogs",
+            "pages": [
+              "untitled-page"
+            ]
           },
           {
             "anchor": "Projects",
             "icon": "diagram-project",
             "pages": [
-              "post/aws/projects/three-tier-architecture",
-              "post/aws/projects/s3-static-website"
+              "post/aws/projects/s3-static-website",
+              "post/aws/projects/three-tier-architecture"
             ]
           }
         ]
@@ -90,13 +99,13 @@
   },
   "logo": {
     "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "dark": "/images/playroom.svg"
   },
   "navbar": {
     "links": [
       {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "href": "https://github.com/canyakora1",
+        "label": "GitHub"
       }
     ],
     "primary": {
@@ -116,5 +125,19 @@
       "github": "https://github.com/playroom-security",
       "linkedin": "https://linkedin.com/company/mintlify"
     }
+  },
+  "background": {
+    "decoration": "grid",
+    "color": {
+      "light": "#F5F5F5",
+      "dark": "#0A0E0A"
+    }
+  },
+  "appearance": {
+    "default": "dark"
+  },
+  "banner": {
+    "content": "Only Him (Jesus Christ) can save!",
+    "dismissible": true
   }
 }
