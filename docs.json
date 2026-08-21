@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "willow",
+  "theme": "maple",
   "name": "Plaroom Cloud Security",
   "colors": {
     "primary": "#e5a809",
@@ -63,7 +63,8 @@
           {
             "anchor": "blogs",
             "pages": [
-              "free-tier"
+              "post/aws/blog/free-tier",
+              "post/aws/blog/aws-cli"
             ]
           },
           {
@@ -71,7 +72,8 @@
             "icon": "diagram-project",
             "pages": [
               "post/aws/projects/s3-static-website",
-              "post/aws/projects/three-tier-architecture"
+              "post/aws/projects/three-tier-architecture",
+              "post/aws/projects/vpc-peering"
             ]
           }
         ]
