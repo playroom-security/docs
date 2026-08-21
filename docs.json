@@ -1,11 +1,11 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "maple",
+  "theme": "willow",
   "name": "Plaroom Cloud Security",
   "colors": {
-    "primary": "#b31fb1",
-    "light": "#b31fb1",
-    "dark": "#b31fb1"
+    "primary": "#00FF41",
+    "light": "#39FF14",
+    "dark": "#00FF41"
   },
   "favicon": "/favicon.svg",
   "navigation": {
