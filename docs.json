@@ -8,7 +8,7 @@
     "dark": "#e5a809"
   },
   "favicon": {
-    "light": "/favicon.svg",
+    "light": "/images/favicon.svg",
     "dark": "/images/favicon.svg"
   },
   "navigation": {
@@ -100,7 +100,7 @@
     ]
   },
   "logo": {
-    "light": "/logo/light.svg",
+    "light": "/images/playroom.svg",
     "dark": "/images/playroom.svg"
   },
   "navbar": {
@@ -139,7 +139,8 @@
     "default": "dark"
   },
   "banner": {
-    "content": "Only Him (Jesus Christ) can save!",
-    "dismissible": true
+    "content": "Migrating on-going. Please stay tuned",
+    "dismissible": true,
+    "type": "critical"
   }
 }
