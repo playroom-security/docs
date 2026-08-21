@@ -68,13 +68,6 @@
               "post/aws/projects/three-tier-architecture",
               "post/aws/projects/vpc-peering"
             ]
-          },
-          {
-            "anchor": "blogs",
-            "pages": [
-              "post/aws/blog/free-tier",
-              "post/aws/blog/aws-cli"
-            ]
           }
         ]
       },
